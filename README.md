@@ -1,5 +1,15 @@
 # ResourcesTest
 
+
+## feature/rs-filter
+
+Working on understanding building using Profiles
+
+  - Introduced filter files (local.properties, dev.properties)
+  - Introduced profile tags. These are driven by appending '-P[profile id]' to the 'mvn clean install' command.
+  
+## master  
+
 This is a test to see what the combination is needed for property variables to properly filter variables. Here are the requirements:
 
   - Spring-boot parent v1.4.2
